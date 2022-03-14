@@ -8,9 +8,6 @@ body {
   margin: 2rem 5rem;
 }
 .btn {
-  background: turquoise;
-  color: white;
-  border-radius: 4px;
   padding: .3rem;
   outline: none;
   border: none;
@@ -21,6 +18,5 @@ input {
   border-radius: 4px;
   padding: .3rem;
   outline: none;
-  border: 1px solid turquoise;
   margin-left: 1rem;
 }
