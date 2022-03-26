@@ -1,15 +1,5 @@
 # A Mini-Microservices App
 
-<br/>
-
-![Application](/img/pic-02-01.png?raw=true)
-
-<br/>
-
-![Application](/img/pic-02-02.png?raw=true)
-
-<br/>
-
 ### 02. Project Setup
 
     $ npm install -g nodemon
@@ -44,10 +34,6 @@
 
 <br/>
 
-![Application](/img/pic-02-03.png?raw=true)
-
-<br/>
-
     $ cd posts
     $ npm run start
 
@@ -74,8 +60,6 @@
 ### 05. Implementing a Comments Service
 
 <br/>
-
-![Application](/img/pic-02-04.png?raw=true)
 
 <br/>
 
@@ -117,12 +101,6 @@
 
 <br/>
 
-![Application](/img/pic-02-05.png?raw=true)
-
-<br/>
-
-![Application](/img/pic-02-06.png?raw=true)
-
 <br/>
 
     $ cd client
@@ -134,39 +112,16 @@
 
 ### 09. Building Post Submission
 
-<br/>
-
-![Application](/img/pic-02-07.png?raw=true)
-
-<br/>
-
 ### 10. Handling CORS Errors
 
 <br/>
 
 ### 11. Fetching and Rendering Posts
 
-<br/>
-
-![Application](/img/pic-02-08.png?raw=true)
-
-<br/>
 
 ### 12. Creating Comments
 
-<br/>
-
-![Application](/img/pic-02-09.png?raw=true)
-
-<br/>
-
 ### 13. Displaying Comments
-
-<br/>
-
-![Application](/img/pic-02-10.png?raw=true)
-
-<br/>
 
 ### 15. Request Minimization Strategies
 
@@ -182,11 +137,6 @@
 
 ### 18. Event Bus Overview
 
-<br/>
-
-![Application](/img/pic-02-11.png?raw=true)
-
-<br/>
 
 ### 19. A Basic Event Bus Implementation
 
@@ -196,12 +146,6 @@
 
     $ npm init -y
     $ npm install --save express axios
-
-<br/>
-
-![Application](/img/pic-02-12.png?raw=true)
-
-<br/>
 
     $ npm run start
 
@@ -216,12 +160,6 @@
 <br/>
 
 ### 22. Receiving Events
-
-<br/>
-
-![Application](/img/pic-02-13.png?raw=true)
-
-<br/>
 
 ### 23. Creating the Data Query Service
 
@@ -250,39 +188,12 @@
 
 ### 26. Adding a Simple Feature
 
-<br/>
-
-![Application](/img/pic-02-14.png?raw=true)
-
-<br/>
-
-![Application](/img/pic-02-15.png?raw=true)
-
-<br/>
-
 ### 27. Issues with Comment Filtering
 
-<br/>
-
-![Application](/img/pic-02-16.png?raw=true)
-
-<br/>
 
 ### 28. A Second Approach
 
-<br/>
-
-![Application](/img/pic-02-17.png?raw=true)
-
-<br/>
-
 ### 29. How to Handle Resource Updates
-
-<br/>
-
-![Application](/img/pic-02-18.png?raw=true)
-
-<br/>
 
 ### 30. Creating the Moderation Service
 
@@ -321,31 +232,9 @@ Comment with text 'orange' has status 'rejected'.
 
 ### 35. Rendering Comments by Status
 
-<br/>
-
-![Application](/img/pic-02-19.png?raw=true)
-
-<br/>
 
 ### 36. Dealing with Missing Events
 
-<br/>
-
-![Application](/img/pic-02-20.png?raw=true)
-
-<br/>
-
-![Application](/img/pic-02-21.png?raw=true)
-
-<br/>
-
-![Application](/img/pic-02-22.png?raw=true)
-
-<br/>
-
-![Application](/img/pic-02-23.png?raw=true)
-
-<br/>
 
 ### 37. Implementing Event Sync
 
@@ -354,10 +243,3 @@ Comment with text 'orange' has status 'rejected'.
 ### 38. Event Syncing in Action
 
 ---
-
-<br/>
-
-**Marley**
-
-Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>  
-Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Телеграм чат</a>
