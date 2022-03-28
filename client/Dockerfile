@@ -1,11 +1,10 @@
 FROM node:alpine
 
-WORKDIR /usr/src/app
+ENV CI=true
 
+WORKDIR /app
 COPY package.json ./
-
-COPY . .
-
 RUN npm install
+COPY ./ ./
 
 CMD ["npm", "start"]
