@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: moderation
-          image: cygnetops/moderation-84
+          image: us.gcr.io/curious-subject-345510/moderation-84
 ---
 apiVersion: v1
 kind: Service

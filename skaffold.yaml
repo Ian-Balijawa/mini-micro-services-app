@@ -5,10 +5,12 @@ deploy:
     manifests:
       - ./infra/k8s/*
 build:
-  local:
-    push: false
+  # local:
+  #   push: false
+  googleCloudBuild:
+    projectId: curious-subject-345510
   artifacts:
-    - image: cygnetops/client-95
+    - image:  us.gcr.io/curious-subject-345510/client-95
       context: client
       docker:
         dockerfile: Dockerfile
@@ -16,7 +18,7 @@ build:
         manual:
           - src: "src/**/*.js"
             dest: .
-    - image: cygnetops/comments-84
+    - image: us.gcr.io/curious-subject-345510/comments-84
       context: comments
       docker:
         dockerfile: Dockerfile
@@ -24,7 +26,7 @@ build:
         manual:
           - src: "*.js"
             dest: .
-    - image: cygnetops/event-bus-85
+    - image: us.gcr.io/curious-subject-345510/event-bus-85
       context: event-bus
       docker:
         dockerfile: Dockerfile
@@ -32,7 +34,7 @@ build:
         manual:
           - src: "*.js"
             dest: .
-    - image: cygnetops/moderation-84
+    - image: us.gcr.io/curious-subject-345510/moderation-84
       context: moderation
       docker:
         dockerfile: Dockerfile
@@ -40,7 +42,7 @@ build:
         manual:
           - src: "*.js"
             dest: .
-    - image: cygnetops/posts-95
+    - image: us.gcr.io/curious-subject-345510/posts-95
       context: posts
       docker:
         dockerfile: Dockerfile
@@ -48,7 +50,7 @@ build:
         manual:
           - src: "*.js"
             dest: .
-    - image: cygnetops/query-84
+    - image: us.gcr.io/curious-subject-345510/query-84
       context: query
       docker:
         dockerfile: Dockerfile

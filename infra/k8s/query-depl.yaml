@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: query
-          image: cygnetops/query-84
+          image: us.gcr.io/curious-subject-345510/query-84
 ---
 apiVersion: v1
 kind: Service
